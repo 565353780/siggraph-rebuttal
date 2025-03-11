@@ -22,4 +22,12 @@ $$\begin{array}{c|c}\hline
 \end{array}$$
 ```
 
+### Run
+
+just provide a 2-dim data list, to create table fast!
+
+```bash
+python demo.py
+```
+
 ## Enjoy it~

@@ -1,9 +1,12 @@
-from siggraph_rebuttal.Method.table import toTableStrFromFile
+from siggraph_rebuttal.Method.table import toTableStr
 
 if __name__ == '__main__':
-    metric_file_path = '../ma-sh/output/metrics/Thingi10K_ours.npy'
+    data = [
+        ['Method', 'Ours',],
+        ['mAP', 1.0,],
+    ]
 
-    table_str = toTableStrFromFile(metric_file_path)
+    table_str = toTableStr(data)
 
     print('Table:')
     print(table_str)
